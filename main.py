@@ -35,4 +35,5 @@ class Watch:
 
 now = datetime.datetime.now()
 rel = Watch(now.hour,now.minute,now.second)
+#rel = Watch(10,3,0)
 rel.printWatch()
